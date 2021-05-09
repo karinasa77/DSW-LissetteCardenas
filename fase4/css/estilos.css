@@ -1,0 +1,104 @@
+header{
+    background-color: #f2f2f2;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+nav{
+    background-color: #6065ef;
+}
+.logo{
+
+text-align: center;
+
+}
+.botones{
+
+width: 100%;
+
+}
+.menu a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #6065ef;
+    height: 50px;
+    text-decoration: none;
+}
+.menu :hover{
+    background: #e3e3ec;
+    color:#6a83d9;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+.menu li {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.menu li:hover .dropdown-1>li {
+    top: 0;
+    display: block;
+}
+.dropdown-1 li {
+    display: none;
+    position: relative;
+}
+.dropdown-1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.dropdown-1 li:hover {
+    display: block;
+}
+section{
+    background-color: #e3e8fd;
+}
+h1{
+    color: #323232;
+    text-align: center;
+}
+footer{
+    background-color: #ffffff;
+}
+.contenido{
+
+    display: flex;
+    padding-inline-start: 10px;
+}
+.texto{
+
+    padding-inline-start: 15px;
+    width: 70%;
+
+}
+.cuestionario{
+
+    padding-inline-start: 15px;
+    width: 70%;
+
+}
+.video{
+
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.autor{
+    text-align: center;
+}
+.pie{
+
+    text-align: center;
+}
+.videorecurso{
+
+    width: 100%;   
+    height: 80%;
+
+}
